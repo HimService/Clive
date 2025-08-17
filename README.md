@@ -25,7 +25,7 @@ Clive 是一個多功能 Discord 機器人，基於 Node.js 和 `discord.js` 開
 ### 1. 下載專案
 您可以透過 git clone 或直接下載 ZIP 檔案來取得專案。
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/HimService/Clive.git
 cd Clive
 ```
 
@@ -36,23 +36,7 @@ npm install
 ```
 
 ### 3. 配置環境變數
-在專案根目錄中，建立一個名為 `.env` 的檔案。這個檔案將用來存放您的機密金鑰。請參考以下格式填入您的資訊：
-
-```env
-# .env
-
-# 您的 Discord 機器人 Token
-BOT_TOKEN="YOUR_DISCORD_BOT_TOKEN"
-
-# 您的 Google Gemini API Key
-GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-
-# 機器人開發者/擁有者的 Discord ID
-DEVELOPER_ID="YOUR_DISCORD_ID"
-
-# (可選) 預設回應的頻道 ID
-DEFAULT_CHANNEL_ID="YOUR_DEFAULT_CHANNEL_ID"
-```
+在專案根目錄中，將.env.example命名為 `.env` 的檔案。這個檔案將用來存放您的機密金鑰。請參考以下格式填入您的資訊：
 
 ## 啟動機器人
 完成設定後，在專案根目錄執行以下指令來啟動機器人：
@@ -101,4 +85,4 @@ Clive/
 如果您有任何功能建議或發現 Bug，歡迎提出 Issue 或發送 Pull Request。
 
 ## 許可
-本專案採用 [MIT](LICENSE) 授權。
+請閱讀 `LICENSE` 文件。
